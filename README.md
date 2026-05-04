@@ -2,13 +2,11 @@
 
 A minimal, elegant, and developer-friendly Oh My Posh theme designed to make your terminal look clean and powerful.
 
----
 
 ## 📸 Preview
 
 ![Theme Preview](./preview/preview.png)
 
----
 
 ## 🚀 Installation
 
@@ -24,7 +22,6 @@ oh-my-posh init <your-shell> --config $HOME/full/path/to/miner.opm.json | source
 oh-my-posh init fish --config $HOME/full/path/to/miner.opm.json | source
 ```
 
----
 
 ## 📦 Usage
 
@@ -39,7 +36,6 @@ oh-my-posh init fish --config $HOME/full/path/to/miner.opm.json | source
 echo 'oh-my-posh init fish --config $HOME/full/path/to/miner.opm.json | source' >> ~/.config/fish/config.fish
 ```
 
----
 
 ## 🎨 Features
 
@@ -47,22 +43,18 @@ echo 'oh-my-posh init fish --config $HOME/full/path/to/miner.opm.json | source' 
 * Minimalist
 * Git-aware segments
 
----
 
 ## 🛠 Requirements
 
 * [Oh My Posh](https://ohmyposh.dev/)
 
----
 
 ## 📄 License
 
 Feel free to use, modify, and share this theme.
 
----
 
 ## 💡 Contributing
 
 If you improve this theme or create variations, feel free to share them!
 
----
