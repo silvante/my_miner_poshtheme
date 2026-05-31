@@ -13,22 +13,22 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "p:os",
-          "style": "plain",
-          "template": " 🔥 ",
-          "type": "os"
-        },
-        {
           "foreground": "p:pink",
           "options": {
             "folder_icon": "..\ue5fe..",
-            "home_icon": "~",
+            "home_icon": " ~",
             "style": "full"
           },
           "style": "plain",
           "template": "{{ .Path }} ",
           "type": "path"
-        },
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
         {
           "foreground": "p:lavender",
           "options": {
@@ -46,6 +46,15 @@
           "template": "{{ .HEAD }} ",
           "style": "plain",
           "type": "git"
+        },
+        {
+          "foreground": "p:pink",
+          "options": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " \uf49b {{ .FormattedMs }} ",
+          "type": "executiontime"
         }
       ],
       "type": "prompt"
@@ -57,7 +66,7 @@
         {
           "style": "plain",
           "foreground": "p:closer",
-          "template": " \u276f",
+          "template": " \u279c",
           "type": "text"
         }
       ],
